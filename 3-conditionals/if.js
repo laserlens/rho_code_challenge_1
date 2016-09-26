@@ -3,9 +3,21 @@
 
 var first = 3;
 var second = 5;
+if (first === second) {
+  console.log('Hello');
+} else if (first !== second) {// answer to question 2
+  console.log('Goodbye');
+}
 
 // 2 - Expand your answer above to console log "Goodbye" if the variables are not equal
-
+ //answer to question 3
+if (first >== second) {
+  var third = first + second;
+  return third;
+} else if (second >== first){
+  var third = second - first;
+  return third;
+}
 
 /*
 3 - Write a statement that assigns the value of the addition of the first & second variables
